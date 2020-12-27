@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h1 {
+    font-size: 47px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36.5px;
+    margin: -10px 0 20px 0;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 40px;
+    padding: 19px 39px;
+    text-size-adjust: 10%;
+    border: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-left: 11.5px;
+    letter-spacing: 0.8px;
+    color: white;
+}
+
+button:hover {
+    filter: brightness(110%);
+}
+a:hover {
+    filter: brightness(200%);
+}
+.ios-btn {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+    background-color: hsl(233, 100%, 69%);
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p {
+    display: flex;
+    margin: auto;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+
+.header-div {
+    margin: 50px 0;
+}
+.header-div > img {
+    height: 130px;
+    width: 130px;
+    
+}
+
+.header-div > p {
+    font-size: 18px;
+    margin-bottom: 50px;
+    max-width: 750px;  
+    width: 90%;
+}
+
+
+.sec-1 > div > p {
+    font-size: 18px;
+    max-width: 700px;
+    margin-bottom: 80px;
+    width: 90%;
+
+}
+
+.sec-2 {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+   display: flex;
+   justify-content: flex-end;
+   margin: 50px 0 0 0; 
+   width: 50%;
+}
+
+.left > img{
+    position: relative;
+    left: -85px;
+    top:-30px;
+}
+
+.right {
+    text-align: left;
+}
+
+.right > p {
+    max-width: 380px;
+    margin: -10px 10px 100px 0 ;
+}  
+
+.sec-3 {
+    margin-top: 170px;
+}
+
+.sec-3 > div > p {
+    max-width: 700px;
+    margin-bottom: 100px;
+}
+
+.devices img {
+    max-width: 100%;
+    height: auto;
+}
+.sec-4 {
+    margin-top: 100px;
+    margin-bottom: 170px;
+}
+
+.sec-4 > div > p {
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 80px;
+}
+
+.three-items {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-bottom: 110px;
+}
+
+.three-items > div > p {
+    width: 22vw;
+    font-size: 16px;
+}
+
+.three-items > div > img {
+    margin-bottom: 15px;
+}
+
+.items {
+    margin: 5px 25px;
+}
+
+.adjust {
+    margin-top: -4px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+.logos ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+
+.logos > img:nth-of-type(3) ,img:nth-of-type(5) {
+    margin-bottom: 10px ;
+}
+
+.sec-5 > div > p {
+    max-width: 700px;
+    height: auto;
+    margin-bottom: 60px;
+}
+
+.sec-5 {
+    padding-bottom: 150px;
+}
+
+.footer-sec {
+    width: 100%;
+    position: relative;
+}
+
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    background-color: hsl(0, 0%, 94%);
+    height: 30vh;
+    align-items: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.social-div,
+.logo {
+    flex: 1;
+}
+.logo > img {
+    width: 60px;
+    height: 60px;
+}
+
+.links-div {
+    flex: 2;
+    height: 96px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex-wrap:  wrap;
+    flex-direction: column;
+    max-height: 15vh;
+    padding-left: 0;
+    text-align: left;
+}
+
+.links li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.social {
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.social li {
+    margin: 0 15px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    bottom: 0;
+    justify-content: center;
+    background-color: hsl(0, 0%, 94%);
+    margin: 0;
+}
+
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        padding: 0;
+        margin: 0;
+    }
+    .logos ul li img {
+        height: 2rem;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-: hidden;
+    }
+    .header-div img {
+        margin: 100px 0 0 0;
+    }
+    .mac-btn {
+        margin: 10px 0 150px 10px;
+    }
+    .sec-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .left {
+        justify-content: center;
+        
+    }
+    .left img {
+        position: static;
+        width: 80vw;
+        height: auto;
+    }
+    .right {
+        text-align: center;
+        margin: 50px 0 -100px 0;
+    }
+    .logos ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logos ul li {
+        margin: 50px 0;
+    }
+    .logos ul li img {
+        height: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+    * {
+        overflow-x: hidden;
+    }
+    .header-div {
+        height: auto;
+        margin: 100px 0 0 0;
+    }
+    header,
+    .sec-2 {
+        overflow-x: visible;
+    }
+    .sec-1 {
+        margin: 100px 0 0 0;
+    }
+    .right {
+        height: 100%;
+    }
+    .three-items {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 40px;
+    }
+    .three-items > div > p {
+        width: 50vw;
+        font-size: 16px;
+    }
+    .items {
+        margin: 40px;
+    }
+    .sec-5 {
+        margin-bottom: -150px;
+    }
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    
+    .footer-sec {
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    .logo {
+        margin-top: 20px;
+    }
+    .links-div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: auto;
+        flex: 3;
+    }
+    .links {
+        max-height: 100%;
+        text-align: center;
+    }
+    .social {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .attribution {
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    
+
+}
