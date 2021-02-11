@@ -1,3 +1,6 @@
+PREVIEW : https://ziedbennani.github.io/Responsive-Landing-Page-Frontend-Mentor-/
+
+
 # Frontend Mentor - Clipboard landing page
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
